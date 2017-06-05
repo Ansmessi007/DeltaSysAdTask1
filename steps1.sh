@@ -58,7 +58,7 @@ sudo mkdir /home/user2/Delta
 
 for i in $(seq 10); 
 do 
-sudo date | md5sum | head -c 10 >  /home/user2/Delta/file_${i}.txt;
+date | md5sum | head -c 10 >  /home/user2/Delta/file_${i}.txt;
 sleep 1;
 done;
 
@@ -73,7 +73,7 @@ sudo mkdir /home/user3/Delta
 
 for i in $(seq 10); 
 do 
-sudo date | md5sum | head -c 10 >  /home/user3/Delta/file_${i}.txt;
+date | md5sum | head -c 10 >  /home/user3/Delta/file_${i}.txt;
 sleep 1;
 done;
 
@@ -88,7 +88,7 @@ sudo mkdir /home/user4/Delta
 
 for i in $(seq 10); 
 do 
-sudo date | md5sum | head -c 10 >  /home/user4/Delta/file_${i}.txt;
+date | md5sum | head -c 10 >  /home/user4/Delta/file_${i}.txt;
 sleep 1;
 done;
 
@@ -103,7 +103,7 @@ sudo mkdir /home/user5/Delta
 
 for i in $(seq 10); 
 do 
-sudo date | md5sum | head -c 10 >  /home/user5/Delta/file_${i}.txt;
+date | md5sum | head -c 10 >  /home/user5/Delta/file_${i}.txt;
 sleep 1;
 done;
 
@@ -118,7 +118,7 @@ sudo mkdir /home/user6/Delta
 
 for i in $(seq 10); 
 do 
-sudo date | md5sum | head -c 10 >  /home/user6/Delta/file_${i}.txt;
+date | md5sum | head -c 10 >  /home/user6/Delta/file_${i}.txt;
 sleep 1;
 done;
 
@@ -133,7 +133,7 @@ sudo mkdir /home/user7/Delta
 
 for i in $(seq 10); 
 do 
-sudo date | md5sum | head -c 10 >  /home/user7/Delta/file_${i}.txt;
+date | md5sum | head -c 10 >  /home/user7/Delta/file_${i}.txt;
 sleep 1;
 done;
 
@@ -148,7 +148,7 @@ sudo mkdir /home/user8/Delta
 
 for i in $(seq 10); 
 do 
-sudo date | md5sum | head -c 10 >  /home/user8/Delta/file_${i}.txt;
+date | md5sum | head -c 10 >  /home/user8/Delta/file_${i}.txt;
 sleep 1;
 done;
 
@@ -163,7 +163,7 @@ sudo mkdir /home/user9/Delta
 
 for i in $(seq 10); 
 do 
-sudo date | md5sum | head -c 10 >  /home/user9/Delta/file_${i}.txt;
+date | md5sum | head -c 10 >  /home/user9/Delta/file_${i}.txt;
 sleep 1;
 done;
 
